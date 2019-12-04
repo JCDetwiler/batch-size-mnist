@@ -7,8 +7,12 @@ from [Don't Decay the Learning Rate, Increase the Batch Size][1], by seeing
 how well the technique transfers to a smaller CNN on the MNIST dataset as
 opposed to ImageNet.
 
+# Original Paper Summary
 
-Figures
+# To write
+- what kind of parameters changed (epoch nums, learning rate, other parameters)
+
+# Figures
 
 ![vanilla sgd results](/vanilla_sgd.png)
 
