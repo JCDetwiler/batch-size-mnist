@@ -8,5 +8,14 @@ how well the technique transfers to a smaller CNN on the MNIST dataset as
 opposed to ImageNet.
 
 
+Figures
+
+![vanilla sgd results](/vanilla_sgd.png)
+
+![adam results](/adam.png)
+
+![sgd with momentum results](/sgd_with_momentum.png)
+
+
 [1]: https://arxiv.org/abs/1711.00489
 [2]: http://courses.cs.vt.edu/cs5824/Fall19/project.html
