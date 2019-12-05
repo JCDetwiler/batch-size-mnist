@@ -89,7 +89,17 @@ difference for all setups.
 
 Next, these are our results for measuring the training time.
 
-<IMGS HERE>
+| vanilla sgd training times for each schedule  |
+| ------------- |
+| ![vanilla sgd training time](/Plots/vanillaSGD_time.png)  |
+
+| sgd with momentum training times for each schedule  |
+| ------------- |
+| ![sgd with momentum training time](/Plots/SGDmomentum_time.png)  |
+
+| adam training times for each schedule  |
+| ------------- |
+| ![adam training time](/Plots/adam_time.png)  |
 
 We found all three setups, Vanilla SGD, Adam, and SGD with momentum, follow the 
 same pattern. Decaying the learning rate had the longest training time, followed 
