@@ -64,14 +64,24 @@ Our parameters for Adam are the default, similar to the authors'.
 
 ## Results
 
+The following is the baseline result for training Mnist on a basic convolutional neural network with Adam.
+
+![baseline adam results](/Plots/baseline_adam.png)
+
 We could reproduce the same results that the authors got in their experiments. 
 The following is a comparison of the authors' results with ours.
 
-![vanilla sgd results](/Plots/vanilla_sgd.png)
+| vanilla sgd results  | paper's vanilla sgd results |
+| ------------- | ------------- |
+| ![vanilla sgd results](/Plots/vanilla_sgd.png)  | ![paper's vanilla sgd results](/Plots/paper_vanilla_sgd.PNG)  |
 
-![adam results](/Plots/adam.png)
+| adam results  | paper's adam results |
+| ------------- | ------------- |
+| ![adam results](/Plots/adam.png)  | ![paper's adam results](/Plots/paper_adam.PNG)  |
 
-![sgd with momentum results](/Plots/sgd_with_momentum.png)
+| sgd with momentum results  | paper's sgd with momentum results |
+| ------------- | ------------- |
+| ![sgd with momentum results](/Plots/sgd_with_momentum.png)  | ![paper's sgd with momentum results](/Plots/paper_sgd_momentum.PNG)  |
 
 Increasing the batch size instead of decaying the learning rate indeed have 
 similar validation accuracy as was reported in the paper, within 1% 
