@@ -74,14 +74,14 @@ The following is a comparison of the authors' results with ours.
 ![sgd with momentum results](/Plots/sgd_with_momentum.png)
 
 Increasing the batch size instead of decaying the learning rate indeed have 
-similar validation accuracy as was reported in the paper, with within 1% 
+similar validation accuracy as was reported in the paper, within 1% 
 difference for all setups.
 
-Next, these is our results for measuring the training time.
+Next, these are our results for measuring the training time.
 
 <IMGS HERE>
 
-We found all three set-ups, Vanilla SGD, Adam, and SGD with momentum, follow the 
+We found all three setups, Vanilla SGD, Adam, and SGD with momentum, follow the 
 same pattern. Decaying the learning rate had the longest training time, followed 
 by the hybrid schedule, and lastly increasing the batch size. The difference 
 between the longest and the shortest training time was about 2-3 seconds.
@@ -95,7 +95,7 @@ at each step noticeably decreased the training time as can be seen below.
 
 In our paper, Smith et al. reference Goyal et al. for motivation of their 
 research as well as for implementing a similar SGD set up that Goyal et al. used 
-[5]. Goyal et al. introduce an optimization method of increasing the mini batch 
+[[5]]. Goyal et al. introduce an optimization method of increasing the mini batch 
 size for momentum SGD using parallel computing for each mini batch. Before their 
 work, small mini batch sizes were used, which have long training times. Goyal et 
 al. introduce a scaling rule that they adapt in their experiments to increase 
