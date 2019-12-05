@@ -64,7 +64,7 @@ Our parameters for Adam are the default, similar to the authors'.
 
 ## Results
 
-The following is the baseline result for training Mnist on a basic convolutional neural network with Adam.
+The following is the baseline result for training Mnist on a basic convolutional neural network with Adam. The baseline took 49.19 seconds to finish.
 
 ![baseline adam results](/Plots/baseline_adam.png)
 
