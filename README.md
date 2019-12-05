@@ -64,7 +64,7 @@ Our parameters for Adam are the default, similar to the authors'.
 
 ## Results
 
-The following is the baseline result for training Mnist on a basic convolutional neural network with Adam. The baseline took 49.19 seconds to finish.
+The following is the baseline result for training a basic convolutional neural network with Adam on Mnist. The baseline took 49.19 seconds to finish. The final validation accuracy was 0.9744.
 
 ![baseline adam results](/Plots/baseline_adam.png)
 
@@ -93,13 +93,13 @@ Next, these are our results for measuring the training time.
 | ------------- |
 | ![vanilla sgd training time](/Plots/vanillaSGD_time.png)  |
 
-| sgd with momentum training times for each schedule  |
-| ------------- |
-| ![sgd with momentum training time](/Plots/SGDmomentum_time.png)  |
-
 | adam training times for each schedule  |
 | ------------- |
 | ![adam training time](/Plots/adam_time.png)  |
+
+| sgd with momentum training times for each schedule  |
+| ------------- |
+| ![sgd with momentum training time](/Plots/SGDmomentum_time.png)  |
 
 We found all three setups, Vanilla SGD, Adam, and SGD with momentum, follow the 
 same pattern. Decaying the learning rate had the longest training time, followed 
